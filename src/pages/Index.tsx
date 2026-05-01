@@ -17,7 +17,6 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { getImageUrl } from '@/utils/imageUtils'
 import styles from './CategorySelector.module.css'
 import SeoKeywordsSection from '@/seo/SeoKeywordsSection'
-import Footer from '@/components/Footer'
 import EnhancedSearch from '@/components/EnhancedSearch'
 import { Carousel } from '@/components/Carousel'
 import { MarqueeSlideshow } from '@/components/MarqueeSlideshow'
@@ -821,8 +820,6 @@ export default function Index() {
 
         <GlobalInquiry />
 
-        {/* Footer (shared component) */}
-        <Footer />
         {/* Sticky Footer CTA for mobile */}
         <div className="sticky-footer-cta md:hidden">
           <button className="cta-btn" onClick={() => window.location.href = '/vendor-registration'}>

@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Calendar, ArrowLeft, BookOpen, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import Footer from '@/components/Footer';
 import type { WPBlog } from './Blogs';
 
 const BLOGS_API = 'https://globalhotelsandtourism.com/seo/wp-json/seo/v1/blogs';
@@ -189,7 +188,6 @@ export default function BlogDetail() {
           </Button>
         </div>
       </article>
-      <Footer />
     </div>
   );
 }

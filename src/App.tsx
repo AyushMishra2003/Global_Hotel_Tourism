@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/shared/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Index from './pages/Index';
 import AllHotels from './pages/AllHotels';
 import AllVendors from './pages/AllVendors';
@@ -82,7 +82,7 @@ function AppContent() {
         </Routes>
       </main>
 
-  {/* <Footer /> */}
+  <Footer />
     </div>
   );
 }

@@ -137,12 +137,10 @@ html, body {
     font-weight: 700;
     line-height: 1.25;
     letter-spacing: -0.01em;
-    color: #111111;
   }
 
   p {
     line-height: 1.75;
-    color: #444444;
   }
 
   /* Small decorative accents (e.g., hero strapline) can use the display font at lighter weights */

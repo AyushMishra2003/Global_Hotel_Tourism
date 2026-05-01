@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useNavigate } from 'react-router-dom';
-import Footer from '@/components/Footer';
 
 const BLOGS_API = 'https://globalhotelsandtourism.com/seo/wp-json/seo/v1/blogs';
 
@@ -187,7 +186,6 @@ export default function Blogs() {
           )}
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
