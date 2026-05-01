@@ -1,0 +1,749 @@
+[
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Palace, New Delhi",
+    "Description": "A landmark hotel in the heart of the diplomatic enclave, known for its grandeur and impeccable service.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-palace-new-delhi/",
+    "Hero Image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "The Taj Mahal Hotel, New Delhi",
+    "Description": "An iconic landmark in Lutyens' Delhi, offering a blend of timeless elegance and modern luxury.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/the-taj-mahal-hotel-new-delhi/",
+    "Hero Image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "SeleQtions",
+    "Hotel Name": "The Connaught, New Delhi - IHCL SeleQtions",
+    "Description": "Located in the heart of Connaught Place, this hotel offers a blend of classic charm and modern amenities.",
+    "Official Website": "https://www.seleqtionshotels.com/en-in/the-connaught-new-delhi/",
+    "Hero Image": "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta New Delhi, Dwarka",
+    "Description": "A contemporary hotel located in the business district of Dwarka, with easy access to the airport.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-new-delhi-dwarka/",
+    "Hero Image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Ginger",
+    "Hotel Name": "Ginger East Delhi",
+    "Description": "A budget-friendly hotel offering smart and comfortable rooms, ideal for business and leisure travelers.",
+    "Official Website": "https://www.gingerhotels.com/ginger-east-delhi",
+    "Hero Image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Maurya, a Luxury Collection Hotel, New Delhi",
+    "Description": "A premier luxury hotel in the heart of Delhi, known for its exceptional hospitality and culinary experiences.",
+    "Official Website": "https://www.itchotels.com/in/en/itcmaurya-newdelhi",
+    "Hero Image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Grand Bharat, a Luxury Collection Retreat, Gurgaon",
+    "Description": "A one-of-a-kind destination luxury resort, sprawling over 1.2 square kilometers, offering an unparalleled experience of Indian grandeur.",
+    "Official Website": "https://www.itchotels.com/in/en/itcgrandbharat-gurgaon",
+    "Hero Image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi, New Delhi",
+    "Description": "A landmark hotel offering breathtaking views of the Delhi Golf Course and Humayun's Tomb, known for its contemporary design and warm hospitality.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-delhi/",
+    "Hero Image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi, Gurgaon",
+    "Description": "A luxury hotel in the heart of Gurgaon, characterized by its striking architecture and serene ambiance.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-gurgaon/",
+    "Hero Image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Leela Palaces, Hotels and Resorts",
+    "Sub-brand": "The Leela",
+    "Hotel Name": "The Leela Palace New Delhi",
+    "Description": "A modern palace hotel that epitomizes the grace and elegance of Lutyens' Delhi.",
+    "Official Website": "https://www.theleela.com/the-leela-palace-new-delhi",
+    "Hero Image": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Leela Palaces, Hotels and Resorts",
+    "Sub-brand": "The Leela",
+    "Hotel Name": "The Leela Ambience Convention Hotel, Delhi",
+    "Description": "A strategically located hotel with one of the largest meeting and banqueting spaces in India.",
+    "Official Website": "https://www.theleela.com/the-leela-ambience-convention-hotel-delhi",
+    "Hero Image": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Roseate Hotels & Resorts",
+    "Sub-brand": "Roseate",
+    "Hotel Name": "Roseate House New Delhi",
+    "Description": "A contemporary upscale hotel located in the Aerocity hospitality district, known for its unique design and hospitality.",
+    "Official Website": "https://www.roseatehotels.com/newdelhi/roseatehouse/",
+    "Hero Image": "https://images.unsplash.com/photo-1598540381903-223b834b87cb?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Roseate Hotels & Resorts",
+    "Sub-brand": "Roseate",
+    "Hotel Name": "The Roseate New Delhi",
+    "Description": "An urban oasis with lush green landscapes and serene water bodies, offering a tranquil escape.",
+    "Official Website": "https://www.roseatehotels.com/newdelhi/theroseate/",
+    "Hero Image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=1632&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Jaypee Hotels & Resorts",
+    "Sub-brand": "Jaypee",
+    "Hotel Name": "Jaypee Vasant Continental",
+    "Description": "A 5-star hotel located in the Vasant Vihar area, known for its warm hospitality and excellent dining options.",
+    "Official Website": "https://www.jaypeehotels.com/delhi/vasant-continental",
+    "Hero Image": "https://images.unsplash.com/photo-1568084680786-84e180d1364d?q=80&w=1376&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Jaypee Hotels & Resorts",
+    "Sub-brand": "Jaypee",
+    "Hotel Name": "Jaypee Siddharth",
+    "Description": "A 5-star hotel in the heart of Delhi, offering a blend of business and pleasure.",
+    "Official Website": "https://www.jaypeehotels.com/delhi/siddharth",
+    "Hero Image": "https://images.unsplash.com/photo-1542314831-068cd1dbb5eb?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Claridges Hotels & Resorts",
+    "Sub-brand": "The Claridges",
+    "Hotel Name": "The Claridges New Delhi",
+    "Description": "A historic hotel in Lutyens' Delhi, known for its old-world charm and personalized service.",
+    "Official Website": "https://www.claridges.com/",
+    "Hero Image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "The Imperial New Delhi",
+    "Sub-brand": "The Imperial",
+    "Hotel Name": "The Imperial New Delhi",
+    "Description": "A historic luxury hotel, known for its colonial elegance and priceless art collection.",
+    "Official Website": "https://theimperialindia.com/",
+    "Hero Image": "https://images.unsplash.com/photo-1562778666-403a65fa5a4a?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Delhi NCR",
+    "Parent Company": "Pride Hotels Group",
+    "Sub-brand": "Pride Plaza",
+    "Hotel Name": "Pride Plaza Hotel, Aerocity, New Delhi",
+    "Description": "A 5-star luxury hotel conveniently located near the airport, offering a blend of traditional Indian hospitality and modern amenities.",
+    "Official Website": "https://www.pridehotel.com/delhi/pride-plaza-hotel-aerocity-new-delhi/",
+    "Hero Image": "https://images.unsplash.com/photo-1586611292717-f8284e4771ce?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Rambagh Palace, Jaipur",
+    "Description": "Often called the 'Jewel of Jaipur', this former royal residence offers a glimpse into the opulent lifestyle of the Maharajas.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/rambagh-palace-jaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Jai Mahal Palace, Jaipur",
+    "Description": "A stunning piece of Rajasthan's heritage, this 270-year-old palace is set amidst 18 acres of landscaped Mughal gardens.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "SeleQtions",
+    "Hotel Name": "The Gateway Hotel Ramgarh Lodge, Jaipur - IHCL SeleQtions",
+    "Description": "The former hunting lodge of the Maharaja of Jaipur, offering a rustic and serene retreat.",
+    "Official Website": "https://www.seleqtionshotels.com/en-in/the-gateway-hotel-ramgarh-lodge-jaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=1332&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Jaipur",
+    "Description": "A contemporary hotel offering a blend of modern design and traditional Rajasthani hospitality.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-jaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Rajputana, a Luxury Collection Hotel, Jaipur",
+    "Description": "Inspired by the havelis of Rajasthan, this hotel offers a blend of traditional architecture and modern amenities.",
+    "Official Website": "https://www.itchotels.com/in/en/itcrajputana-jaipur",
+    "Hero Image": "https://images.unsplash.com/photo-1615460549969-36fa19521a4a?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi Rajvilas, Jaipur",
+    "Description": "A luxurious resort set in 32 acres of landscaped gardens with pavilions and reflection pools, offering an oasis of tranquility.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-jaipur-rajvilas-resort/",
+    "Hero Image": "https://images.unsplash.com/photo-1622322234343-30b369a883a0?q=80&w=1332&auto=format=fit=crop"
+  },
+  {
+    "City": "Udaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Lake Palace, Udaipur",
+    "Description": "An iconic floating palace on Lake Pichola, offering breathtaking views and a truly magical experience.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-lake-palace-udaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Udaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Fateh Prakash Palace, Udaipur",
+    "Description": "A heritage hotel within the City Palace Complex, offering panoramic views of Lake Pichola.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-fateh-prakash-palace-udaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1617541319230-a8d67e34551a?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Udaipur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Udaipur",
+    "Description": "A contemporary hotel with stunning views of the Aravalli Hills and the city's lakes.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-udaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1615880141676-14a893d7a19a?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Udaipur",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi Udaivilas, Udaipur",
+    "Description": "A spectacular luxury resort on the banks of Lake Pichola, showcasing the rich heritage of the Mewar region of Rajasthan.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-udaipur-udaivilas-resort/",
+    "Hero Image": "https://images.unsplash.com/photo-1599922334339-50a1680d9443?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Udaipur",
+    "Parent Company": "The Leela Palaces, Hotels and Resorts",
+    "Sub-brand": "The Leela",
+    "Hotel Name": "The Leela Palace Udaipur",
+    "Description": "A modern palace hotel on the banks of Lake Pichola, offering breathtaking views of the lake and the Aravalli mountains.",
+    "Official Website": "https://www.theleela.com/the-leela-palace-udaipur",
+    "Hero Image": "https://images.unsplash.com/photo-1541695434333-39480157e434?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Agra",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Mughal, a Luxury Collection Hotel, Agra",
+    "Description": "A tribute to the great Mughal builders, this hotel is a splendid display of Mughal architecture and landscaped gardens.",
+    "Official Website": "https://www.itchotels.com/in/en/itcmughal-agra",
+    "Hero Image": "https://images.unsplash.com/photo-1524064504622-c6dadd59701a?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Agra",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi Amarvilas, Agra",
+    "Description": "Located just 600 meters from the Taj Mahal, this luxury hotel offers uninterrupted views of the iconic monument from every room.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-agra-amarvilas-resort/",
+    "Hero Image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Amritsar",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Amritsar",
+    "Description": "A contemporary hotel with a stylish design, located in the heart of the city.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-amritsar/",
+    "Hero Image": "https://images.unsplash.com/photo-1600579462240-84096cf7a365?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Lucknow",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Lucknow, Gomti Nagar",
+    "Description": "A modern hotel located in the business and residential hub of Gomti Nagar.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-lucknow-gomti-nagar/",
+    "Hero Image": "https://images.unsplash.com/photo-1578914498892-67adb1b14a1b?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Chandigarh",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Chandigarh",
+    "Description": "A luxury hotel in the heart of the city, offering a blend of modern comfort and warm hospitality.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-chandigarh/",
+    "Hero Image": "https://images.unsplash.com/photo-1580737836113-93caa2b71e4b?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Shimla",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "Wildflower Hall, An Oberoi Resort, Shimla",
+    "Description": "A fairytale luxury resort set in 22 acres of virgin woods of pine and cedar, offering breathtaking views of the Himalayas.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-shimla-wildflower-hall/",
+    "Hero Image": "https://images.unsplash.com/photo-1596349627499-49be8696e5fa?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Shimla",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Clarkes Hotel",
+    "Hotel Name": "Clarkes Hotel, Shimla",
+    "Description": "One of the oldest hotels in Shimla, this heritage property exudes old-world charm and is located on the Mall Road.",
+    "Official Website": "https://www.clarkesshimla.com/",
+    "Hero Image": "https://images.unsplash.com/photo-1613949323338-831bff89a3a9?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Dehradun",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Hyatt Regency",
+    "Hotel Name": "Hyatt Regency Dehradun",
+    "Description": "A luxury hotel nestled in the foothills of the Himalayas, offering a perfect getaway for both business and leisure travelers.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-dehradun/delrh",
+    "Hero Image": "https://images.unsplash.com/photo-1601633967380-9368697c6159?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Varanasi",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Ganges, Varanasi",
+    "Description": "A tranquil oasis in the heart of the ancient city, set amidst 12 acres of lush gardens.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-ganges-varanasi/",
+    "Hero Image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Varanasi",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "SeleQtions",
+    "Hotel Name": "BrijRama Palace, Varanasi - IHCL SeleQtions",
+    "Description": "One of the oldest landmarks in Varanasi, this heritage hotel on the banks of the Ganges offers a unique and immersive experience.",
+    "Official Website": "https://www.seleqtionshotels.com/en-in/brijrama-palace-varanasi/",
+    "Hero Image": "https://images.unsplash.com/photo-1575780059883-772e385a7a40?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Jim Corbett",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "SeleQtions",
+    "Hotel Name": "Corbett The Baagh Spa & Resort, Corbett - IHCL SeleQtions",
+    "Description": "A luxury resort on the banks of the Kosi river, offering a perfect blend of wilderness and comfort.",
+    "Official Website": "https://www.seleqtionshotels.com/en-in/corbett-the-baagh-spa-resort/",
+    "Hero Image": "https://images.unsplash.com/photo-1618321613479-3b113c4a1f1a?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Rishikesh",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Rishikesh, Uttarakhand",
+    "Description": "A contemporary hotel located on the banks of the river Ganges, offering stunning views of the river and the surrounding hills.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-rishikesh-uttarakhand/",
+    "Hero Image": "https://images.unsplash.com/photo-1609773952333-dd2f3837f34b?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Jodhpur",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Umaid Bhawan Palace, Jodhpur",
+    "Description": "An opulent palace, part of which is still the residence of the royal family, offering a truly royal experience.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/",
+    "Hero Image": "https://images.unsplash.com/photo-1623394588225-b88c224f92a1?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaisalmer",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "Marriott Hotels & Resorts",
+    "Hotel Name": "Jaisalmer Marriott Resort & Spa",
+    "Description": "A luxurious resort offering stunning views of the Jaisalmer Fort, designed to reflect the rich heritage of the Golden City.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/jsamc-jaisalmer-marriott-resort-and-spa/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1605792579223-43571377d049?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Bikaner",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Bikaner",
+    "Description": "A contemporary hotel offering modern amenities and a comfortable stay in the desert city of Bikaner.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-bikaner/",
+    "Hero Image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj West End, Bengaluru",
+    "Description": "An iconic hotel set amidst 20 acres of lush, landscaped gardens, offering a tranquil escape in the heart of the city.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-west-end-bengaluru/",
+    "Hero Image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Vivanta",
+    "Hotel Name": "Vivanta Bengaluru, Whitefield",
+    "Description": "A contemporary hotel located in the heart of the International Tech Park, ideal for business travelers.",
+    "Official Website": "https://www.vivantahotels.com/en-in/vivanta-bengaluru-whitefield/",
+    "Hero Image": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Gardenia, a Luxury Collection Hotel, Bengaluru",
+    "Description": "A hotel that is a tribute to the Garden City, with its design inspired by nature.",
+    "Official Website": "https://www.itchotels.com/in/en/itcgardenia-bengaluru",
+    "Hero Image": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi, Bengaluru",
+    "Description": "A luxury hotel located in the heart of the city, known for its beautiful gardens and serene ambiance.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-bengaluru/",
+    "Hero Image": "https://images.unsplash.com/photo-1594904351111-a072f80b1a85?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Hyderabad",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Falaknuma Palace, Hyderabad",
+    "Description": "A stunning palace in the sky, offering a glimpse into the opulent life of the Nizams.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/",
+    "Hero Image": "https://images.unsplash.com/photo-1606073358163-a9b6c9c7e5c8?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Hyderabad",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Kohenur, a Luxury Collection Hotel, Hyderabad",
+    "Description": "A tribute to the legendary Koh-i-Noor diamond, this hotel is a blend of traditional and modern luxury.",
+    "Official Website": "https://www.itchotels.com/in/en/itckohenur-hyderabad",
+    "Hero Image": "https://images.unsplash.com/photo-1629330251199-a3c1b7579533?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "The Taj Mahal Palace, Mumbai",
+    "Description": "An iconic landmark overlooking the Gateway of India, offering a blend of history, luxury, and warm hospitality.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/the-taj-mahal-palace-mumbai/",
+    "Hero Image": "https://images.unsplash.com/photo-1528349692215-12595100f3ce?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Lands End, Mumbai",
+    "Description": "A luxury hotel in the heart of Bandra, offering stunning views of the Arabian Sea and the Bandra-Worli Sea Link.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-lands-end-mumbai/",
+    "Hero Image": "https://images.unsplash.com/photo-1574047473833-8435710a48a2?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi, Mumbai",
+    "Description": "A contemporary luxury hotel located on Marine Drive, offering stunning views of the ocean and the city's skyline.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-mumbai/",
+    "Hero Image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Pushkar",
+    "Parent Company": "The Westin Pushkar Resort & Spa",
+    "Sub-brand": "The Westin",
+    "Hotel Name": "The Westin Pushkar Resort & Spa",
+    "Description": "A luxury resort set amidst the serene Aravalli hills, offering a rejuvenating escape.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/jaisw-the-westin-pushkar-resort-and-spa/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1625244724120-130a0e574935?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Kolkata",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi Grand, Kolkata",
+    "Description": "Affectionately known as the 'Grande Dame of Chowringhee', this heritage hotel offers a perfect blend of classic charm and modern luxury.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-kolkata-grand/",
+    "Hero Image": "https://images.unsplash.com/photo-1620662736377-d752b1008502?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Kolkata",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Royal Bengal, a Luxury Collection Hotel, Kolkata",
+    "Description": "A tribute to the rich culture and heritage of Bengal, this hotel is a landmark in the city.",
+    "Official Website": "https://www.itchotels.com/in/en/itcroyalbengal-kolkata",
+    "Hero Image": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Kolkata",
+    "Parent Company": "The LaLiT",
+    "Sub-brand": "The LaLiT",
+    "Hotel Name": "The LaLiT Great Eastern Kolkata",
+    "Description": "Asia's first luxury hotel, this heritage property has been restored to its former glory and offers a unique blend of Victorian, Edwardian, and contemporary architecture.",
+    "Official Website": "https://www.thelalit.com/the-lalit-kolkata/",
+    "Hero Image": "https://images.unsplash.com/photo-1621293954908-89a1a4687a8a?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Chennai",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Coromandel, Chennai",
+    "Description": "A landmark hotel in the heart of Chennai, known for its timeless elegance and warm hospitality.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-coromandel-chennai/",
+    "Hero Image": "https://images.unsplash.com/photo-1628557159733-a6a1446d2b6f?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Chennai",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Grand Chola, a Luxury Collection Hotel, Chennai",
+    "Description": "Inspired by the imperial Chola dynasty, this majestic hotel is a tribute to the rich heritage of Southern India.",
+    "Official Website": "https://www.itchotels.com/in/en/itcgrandchola-chennai",
+    "Hero Image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Chennai",
+    "Parent Company": "The Leela Palaces, Hotels and Resorts",
+    "Sub-brand": "The Leela",
+    "Hotel Name": "The Leela Palace Chennai",
+    "Description": "A modern palace hotel located by the sea, offering stunning views of the Bay of Bengal.",
+    "Official Website": "https://www.theleela.com/the-leela-palace-chennai",
+    "Hero Image": "https://images.unsplash.com/photo-1561501900-3701fa6a0864?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Mussoorie",
+    "Parent Company": "Jaypee Hotels & Resorts",
+    "Sub-brand": "Jaypee",
+    "Hotel Name": "Jaypee Residency Manor, Mussoorie",
+    "Description": "A 5-star hotel located on a hilltop, offering panoramic views of the Himalayas.",
+    "Official Website": "https://www.jaypeehotels.com/mussoorie/residency-manor",
+    "Hero Image": "https://images.unsplash.com/photo-1577176819528-53b01a148a23?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Goa",
+    "Parent Company": "Indian Hotels Company Ltd. (IHCL)",
+    "Sub-brand": "Taj",
+    "Hotel Name": "Taj Fort Aguada Resort & Spa, Goa",
+    "Description": "A historic Portuguese fort, this resort offers panoramic views of the Arabian Sea.",
+    "Official Website": "https://www.tajhotels.com/en-in/taj/taj-fort-aguada-resort-spa-goa/",
+    "Hero Image": "https://images.unsplash.com/photo-1570222724649-5e9a2aa53e83?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Goa",
+    "Parent Company": "ITC Hotels",
+    "Sub-brand": "ITC Hotels",
+    "Hotel Name": "ITC Grand Goa, a Luxury Collection Resort & Spa, Goa",
+    "Description": "Set in 45 acres of lush landscaped gardens with direct access to Arossim beach, this resort offers a tranquil and luxurious retreat.",
+    "Official Website": "https://www.itchotels.com/in/en/itcgrandgoa-goa",
+    "Hero Image": "https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Goa",
+    "Parent Company": "The Leela Palaces, Hotels and Resorts",
+    "Sub-brand": "The Leela",
+    "Hotel Name": "The Leela Goa",
+    "Description": "A luxurious beach resort set in 75 acres of lush gardens, with a private beach, a 12-hole golf course, and a world-class spa.",
+    "Official Website": "https://www.theleela.com/the-leela-goa",
+    "Hero Image": "https://images.unsplash.com/photo-1562778666-403a65fa5a4a?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Ranthambore",
+    "Parent Company": "The Oberoi Group",
+    "Sub-brand": "Oberoi Hotels & Resorts",
+    "Hotel Name": "The Oberoi Vanyavilas Wildlife Resort, Ranthambhore",
+    "Description": "A luxury jungle resort located adjacent to the Ranthambhore National Park, offering luxury tents and an opportunity to spot the majestic tiger.",
+    "Official Website": "https://www.oberoihotels.com/hotels-in-ranthambhore-vanyavilas-resort/",
+    "Hero Image": "https://images.unsplash.com/photo-1598024099354-9183b159233f?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Agra",
+    "Parent Company": "Jaypee Hotels & Resorts",
+    "Sub-brand": "Jaypee",
+    "Hotel Name": "Jaypee Palace Hotel & Convention Centre, Agra",
+    "Description": "A landmark hotel in Agra, built of red sandstone and marble, it is a blend of Mughal and contemporary architecture.",
+    "Official Website": "https://www.jaypeehotels.com/agra/jaypee-palace",
+    "Hero Image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Greater Noida",
+    "Parent Company": "Jaypee Hotels & Resorts",
+    "Sub-brand": "Jaypee",
+    "Hotel Name": "Jaypee Greens Golf & Spa Resort, Greater Noida",
+    "Description": "A super-deluxe creation, this resort is a harmonious blend of luxury, recreation, and wellness.",
+    "Official Website": "https://www.jaypeehotels.com/greater-noida/jaypee-greens",
+    "Hero Image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "The LaLiT",
+    "Sub-brand": "The LaLiT",
+    "Hotel Name": "The LaLiT Mumbai",
+    "Description": "Located close to the international airport, this hotel offers a calm and peaceful oasis in the bustling city of Mumbai.",
+    "Official Website": "https://www.thelalit.com/the-lalit-mumbai/",
+    "Hero Image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "The LaLiT",
+    "Sub-brand": "The LaLiT",
+    "Hotel Name": "The LaLiT Ashok Bangalore",
+    "Description": "Nestled in an oasis of 10 acres of sprawling landscaped and manicured lawns, the hotel is a tribute to the garden city.",
+    "Official Website": "https://www.thelalit.com/the-lalit-bangalore/",
+    "Hero Image": "https://images.unsplash.com/photo-1605346434674-a16d731b9048?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "New Delhi",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Andaz",
+    "Hotel Name": "Andaz Delhi",
+    "Description": "A luxury lifestyle hotel in Aerocity, offering a unique and vibrant experience that is rooted in the local culture of Delhi.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/andaz-delhi/delaz",
+    "Hero Image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Grand Hyatt",
+    "Hotel Name": "Grand Hyatt Mumbai Hotel and Residences",
+    "Description": "A multidimensional lifestyle complex set in the heart of Mumbai, offering a world-class experience.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/grand-hyatt-mumbai-hotel-and-residences/mumgh",
+    "Hero Image": "https://images.unsplash.com/photo-1619634727222-a3a5d82f2991?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Kolkata",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Hyatt Regency",
+    "Hotel Name": "Hyatt Regency Kolkata",
+    "Description": "A premier business hotel, contemporary in design with a touch of local culture.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-kolkata/kolka",
+    "Hero Image": "https://images.unsplash.com/photo-1610641818989-c2051b5e2cfd?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Pune",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Hyatt Regency",
+    "Hotel Name": "Hyatt Regency Pune & Residences",
+    "Description": "An elegant hotel located in the heart of Pune's corporate and entertainment hub, Viman Nagar.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-pune-and-residences/punhr",
+    "Hero Image": "https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Ahmedabad",
+    "Parent Company": "Hyatt Hotels Corporation",
+    "Sub-brand": "Hyatt Regency",
+    "Hotel Name": "Hyatt Regency Ahmedabad",
+    "Description": "A luxury hotel located in the heart of the city, offering stunning views of the Sabarmati River.",
+    "Official Website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-ahmedabad/amdhy",
+    "Hero Image": "https://images.unsplash.com/photo-1613946069412-38f4048026ae?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "The St. Regis",
+    "Hotel Name": "The St. Regis Mumbai",
+    "Description": "Located in the city's premier entertainment and commercial district, this hotel offers bespoke services and panoramic views of the city.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/bomxr-the-st-regis-mumbai/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1574873215043-44119461592b?q=80&w=1374&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "JW Marriott",
+    "Hotel Name": "JW Marriott Hotel Bengaluru",
+    "Description": "A luxury hotel located in the heart of the central business district, overlooking the lush Cubbon Park.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/blrjw-jw-marriott-hotel-bengaluru/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Pune",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "JW Marriott",
+    "Hotel Name": "JW Marriott Hotel Pune",
+    "Description": "A landmark hotel in the city, offering a perfect blend of luxury, comfort, and state-of-the-art amenities.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/pnqmc-jw-marriott-hotel-pune/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1325&auto=format=fit=crop"
+  },
+  {
+    "City": "New Delhi",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "JW Marriott",
+    "Hotel Name": "JW Marriott Hotel New Delhi Aerocity",
+    "Description": "A luxury hotel located in the Aerocity, offering a seamless blend of comfort and convenience.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/delap-jw-marriott-hotel-new-delhi-aerocity/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Goa",
+    "Parent Company": "Marriott International",
+    "Sub-brand": "W Hotels",
+    "Hotel Name": "W Goa",
+    "Description": "A vibrant and eclectic resort located on Vagator Beach, offering a unique and immersive experience.",
+    "Official Website": "https://www.marriott.com/en-us/hotels/goiwh-w-goa/overview/",
+    "Hero Image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Bengaluru",
+    "Parent Company": "Hilton Hotels & Resorts",
+    "Sub-brand": "Conrad",
+    "Hotel Name": "Conrad Bengaluru",
+    "Description": "A luxury hotel in the heart of the central business district, offering stunning views of Ulsoor Lake.",
+    "Official Website": "https://www.hilton.com/en/hotels/blrcici-conrad-bengaluru/",
+    "Hero Image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Pune",
+    "Parent Company": "Hilton Hotels & Resorts",
+    "Sub-brand": "Conrad",
+    "Hotel Name": "Conrad Pune",
+    "Description": "An iconic landmark in the heart of the business and entertainment district of Pune, offering a world of contemporary luxury.",
+    "Official Website": "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/",
+    "Hero Image": "https://images.unsplash.com/photo-1596436889106-be35e843f974?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Mumbai",
+    "Parent Company": "Hilton Hotels & Resorts",
+    "Sub-brand": "Hilton",
+    "Hotel Name": "Hilton Mumbai International Airport",
+    "Description": "A boutique hotel located just a 5-minute drive from the international airport, featuring a 19th-century summer palace-inspired design.",
+    "Official Website": "https://www.hilton.com/en/hotels/bomaphi-hilton-mumbai-international-airport/",
+    "Hero Image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=1470&auto=format=fit=crop"
+  },
+  {
+    "City": "Jaipur",
+    "Parent Company": "Hilton Hotels & Resorts",
+    "Sub-brand": "Hilton",
+    "Hotel Name": "Hilton Jaipur",
+    "Description": "Located in the heart of the city, this hotel offers a blend of contemporary style and Rajasthani hospitality.",
+    "Official Website": "https://www.hilton.com/en/hotels/jaihihi-hilton-jaipur/",
+    "Hero Image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1470&auto=format=fit=crop"
+  }
+]

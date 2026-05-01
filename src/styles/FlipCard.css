@@ -1,0 +1,83 @@
+/* Flip card styles */
+.flip-card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-inner.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Minimal mobile adjustments: keep logos centered and scaled to fit inside card */
+@media (max-width: 640px) {
+  /* make the flip-card-inner slightly shorter and proportionate on phones */
+  .flip-card-inner {
+    height: calc(68vw) !important; /* responsive height based on viewport width */
+  }
+
+  .flip-card-front, .flip-card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: #fff; /* clean background for logos */
+    border-radius: 16px;
+    /* remove outer border here to avoid double border - inner element will carry the frame */
+    border: none;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    overflow: hidden;
+  }
+
+  /* reduce the large padding used on desktop (p-12) so logos have more room */
+  .flip-card-front .p-12 {
+    padding: 1rem !important;
+  }
+
+  /* Constrain logos to a balanced size inside the framed card */
+  .flip-card-front img, .flip-card-back img {
+    max-width: 78%;
+    max-height: 72%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* For images that use rounded-full on desktop, limit size and soften the corner on mobile */
+  .flip-card-front img.rounded-full, .flip-card-back img.rounded-full {
+    max-width: 64%;
+    max-height: 64%;
+    border-radius: 12px !important;
+  }
+
+  /* Ensure the back's small logo + text block stacks nicely */
+  .flip-card-back .flex.mb-6 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Override the fixed 400px wrapper height on mobile so cards size responsively */
+  .h-\[400px\] {
+    height: auto !important;
+  }
+
+  /* Move the gold frame to the inner card element (overriding Tailwind border-4) */
+  .flip-card-front > div, .flip-card-back > div {
+    border: 6px solid rgba(212,175,55,0.85) !important;
+    padding: 1rem !important;
+    border-radius: 12px !important;
+  }
+}

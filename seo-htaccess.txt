@@ -1,0 +1,15 @@
+# This file goes inside public_html/seo/.htaccess on the server
+# It overrides the root .htaccess so WordPress can handle its own routing
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /seo/
+
+  RewriteRule ^index\.php$ - [L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /seo/index.php [L]
+</IfModule>
+# END WordPress

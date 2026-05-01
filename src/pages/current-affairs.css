@@ -1,0 +1,23 @@
+/* Current Affairs page specific styles */
+
+/* Ensure proper spacing for the main header on Current Affairs page */
+.current-affairs-page {
+  --header-height: 88px; /* Approximate height of the main site header */
+}
+
+/* Override the sticky header positioning to account for main header */
+.current-affairs-page .current-affairs-header {
+  top: var(--header-height) !important;
+}
+
+/* Ensure the page content starts below both headers */
+.current-affairs-page .current-affairs-content {
+  padding-top: calc(var(--header-height) + 60px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .current-affairs-page {
+    --header-height: 72px; /* Slightly smaller on mobile */
+  }
+}

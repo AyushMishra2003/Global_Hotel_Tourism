@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /seo/
+
+RewriteRule ^index\.php$ - [L]
+
+# If request is not a real file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route everything to WordPress index
+RewriteRule . /seo/index.php [L]
