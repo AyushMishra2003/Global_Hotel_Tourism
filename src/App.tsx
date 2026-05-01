@@ -31,6 +31,7 @@ import { Navigate } from 'react-router-dom';
 import JoinPopup from './components/JoinPopup';
 import DynamicSEO from './components/seo/DynamicSEO';
 import GlobalInquiry from './pages/GlobalInquiry';
+import About from './pages/About';
 import SecondTopHeader from './components/SecondTopHeader';
 import SecondNavBar from './components/SecondNavBar';
 
@@ -76,6 +77,7 @@ function AppContent() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/disclaimer" element={<TermsOfService />} />
           <Route path="/inquiry" element={<GlobalInquiry />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

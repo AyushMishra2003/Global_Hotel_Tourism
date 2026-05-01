@@ -6,11 +6,11 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 const mobileNavItems = [
   { label: "Hotels & Venues", path: "/all-hotels" },
   { label: "Vendors", path: "/vendors" },
-  { label: "Destination Wedding", path: "/vendors/event-planners" },
   { label: "Event Planners", path: "/vendors/event-planners" },
   { label: "Awards", path: "/awards" },
   { label: "Current Affairs", path: "/current-affairs" },
   { label: "Blogs", path: "/blogs" },
+  { label: "About Us", path: "/about" },
 ];
 
 const cities = [
@@ -72,7 +72,7 @@ const SecondTopHeader = () => {
                     key={item.label}
                     to={item.path}
                     onClick={() => setSheetOpen(false)}
-                    className="px-4 py-3 text-sm text-foreground hover:bg-[#f0f2f7] hover:text-[#101c34] border-b border-border"
+                    className="px-4 py-3 text-[15px] font-medium text-foreground hover:bg-[#f0f2f7] hover:text-[#101c34] border-b border-border"
                   >
                     {item.label}
                   </Link>
@@ -95,7 +95,7 @@ const SecondTopHeader = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src="/bglogo.png" alt="GHT Logo" className="h-11" />
           <div className="hidden sm:block">
-            <span className="text-base font-bold text-gray-900">Global Hotels & Tourism</span>
+            <span className="text-lg font-bold text-gray-900 tracking-tight">Global Hotels & Tourism</span>
           </div>
         </Link>
 
