@@ -1,6 +1,7 @@
 ﻿import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { Calendar, ArrowLeft, BookOpen, Tag } from 'lucide-react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { Calendar, ArrowLeft, BookOpen, Tag, Home, ChevronRight } from 'lucide-react';
+import breadcrumbBg from '@/assets/breadcums.jpeg';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import type { WPBlog } from './Blogs';
@@ -85,17 +86,26 @@ export default function BlogDetail() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50">
-      {/* Sticky top bar */}
-      <div className="bg-white/80 backdrop-blur-sm border-b sticky top-0 z-40">
-        <div className="container mx-auto px-4 py-4">
-          <Button
-            onClick={() => navigate('/blogs')}
-            variant="ghost"
-            className="hover:bg-[#f0f2f7]"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Blogs
-          </Button>
+      {/* Breadcrumb Hero Banner */}
+      <div className="relative w-full h-64 md:h-80 overflow-hidden">
+        <img src={breadcrumbBg} alt={blog.title} className="absolute inset-0 w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+        <div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+          <nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+              <Home className="w-3.5 h-3.5" /><span>Home</span>
+            </Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            <Link to="/blogs" className="hover:text-white transition-colors">Blogs</Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            <span className="text-white font-medium line-clamp-1">{blog.title}</span>
+          </nav>
+          <h1 className="text-2xl md:text-4xl font-extrabold text-white leading-tight line-clamp-2" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+            {blog.title}
+          </h1>
+          {blog.category && (
+            <p className="text-white/70 mt-2 text-sm md:text-base">{blog.category}</p>
+          )}
         </div>
       </div>
 
@@ -118,10 +128,6 @@ export default function BlogDetail() {
               {getCategory(blog)}
             </Badge>
           </div>
-
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-            {blog.title}
-          </h1>
 
           {blog.excerpt && (
             <p
