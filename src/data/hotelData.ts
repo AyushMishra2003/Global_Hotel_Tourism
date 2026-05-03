@@ -120,7 +120,82 @@ export const fetchHotels = async (): Promise<Hotel[]> => {
                 }
             ];
             
-            return [...data, ...internationalHotels];
+            const corbettHotels: Hotel[] = [
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Marriott International",
+                    "Sub-brand": "Marriott Hotels",
+                    "Hotel Name": "Jim Corbett Marriott Resort & Spa",
+                    Description: "A luxury wilderness resort on the banks of the Kosi River in Village Dhikuli, featuring Quan Spa, multiple dining outlets, and guided safari experiences near the Bijrani zone of Jim Corbett National Park.",
+                    "Official Website": "https://www.marriott.com/en-us/hotels/delmo-jim-corbett-marriott-resort-and-spa/overview/",
+                    "Hero Image": "https://s7d2.scene7.com/is/image/marriotts7prod/mc-delmo-exterior-62028?wid=1600&fit=constrain"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Resorts by The Baagh",
+                    "Sub-brand": "The Baagh",
+                    "Hotel Name": "Corbett The Baagh Spa & Resort",
+                    Description: "An upscale resort set in the Sitabani Reserve Forest near Ramnagar, featuring jungle-themed spa treatments, organic gardens, and curated wildlife experiences blending colonial-era aesthetics with modern luxury.",
+                    "Official Website": "https://www.corbettthebaagh.com/",
+                    "Hero Image": "https://www.corbettthebaagh.com/public/assets/img/banners/home-banner2.jpg"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Independent",
+                    "Sub-brand": "The Roar Resort",
+                    "Hotel Name": "The Roar Resort",
+                    Description: "A 7-acre luxury resort near the Jhirna gate of Jim Corbett National Park in Sawaldeh, Ramnagar, offering 50+ rooms including imperial suites and family cottages, one of the few pet-friendly resorts in the Corbett area.",
+                    "Official Website": "https://roarresort.com/",
+                    "Hero Image": "https://www.corbettresorts.co.in/pics/1000x680/image_227.jpeg"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Independent",
+                    "Sub-brand": "Bel-La Monde",
+                    "Hotel Name": "Bel-La Monde Riverside",
+                    Description: "A riverside luxury resort on the banks of the Kosi River in Dhikuli, offering garden-view rooms, river-facing suites, private pool cottages, and an outdoor pool. Welcoming guests since 1989.",
+                    "Official Website": "https://bellamonderiverside.com/",
+                    "Hero Image": "https://bellamonderiverside.com/assets/img/home-1/about/about-1.jpg"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Radisson Hotel Group",
+                    "Sub-brand": "Radisson Individuals",
+                    "Hotel Name": "Namah Resort Jim Corbett, a member of Radisson Individuals",
+                    Description: "A 48-room forest resort in Dhikuli, Ramnagar, set among Himalayan foothills with mountain and river views, offering a spa, outdoor pool, all-day dining, and curated jungle safari packages.",
+                    "Official Website": "https://www.radissonhotels.com/en-us/hotels/radisson-individuals-namah-resort-jim-corbett",
+                    "Hero Image": "https://www.corbett-national-park.com/assets/corbett-images/namah-resort-main.webp"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Independent",
+                    "Sub-brand": "Tarangi",
+                    "Hotel Name": "Tarangi Resort & Spa",
+                    Description: "A 13-acre luxury riverside resort among dense Sal trees on the banks of the Kosi River, minutes from the Aamdanda gate of Jim Corbett. Popular as a destination wedding venue with villas, cottages, and spa facilities.",
+                    "Official Website": "https://www.tarangijimcorbett.com/",
+                    "Hero Image": "https://t.eucdn.in/hotels/lg/tarangi-spa-and-resort-corbett-6582554.webp"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Lemon Tree Hotels",
+                    "Sub-brand": "Lemon Tree Premier",
+                    "Hotel Name": "Lemon Tree Premier, Corbett",
+                    Description: "A 68-room resort on the Kosi River featuring signature dome-styled thatched-roof cottages, located near the Durga Devi and Dhangarhi gates of Jim Corbett National Park, with a spa, pool, and all-day dining.",
+                    "Official Website": "https://www.lemontreehotels.com/lemon-tree-premier/corbett/hotel-corbett",
+                    "Hero Image": "https://www.lemontreehotels.com/uploads/hotelslider/665079d352174corbett%20-%20res%20(1).jpg"
+                },
+                {
+                    City: "Jim Corbett",
+                    "Parent Company": "Independent",
+                    "Sub-brand": "The Golden Tusk",
+                    "Hotel Name": "The Golden Tusk",
+                    Description: "A 10-acre luxury retreat on the banks of the Dhela River beside Corbett's Reserve Forest, offering villas, pool-view suites, and luxury tents with fine dining and nature-based experiences adjacent to the Dhela Buffer Zone.",
+                    "Official Website": "https://www.thegoldentusk.com/",
+                    "Hero Image": "https://assets.simplotel.com/simplotel/image/upload/q_85,fl_progressive/f_auto/the-golden-tusk-ramnagar/The_Golden_Tusk_Jungle_Safari_fdmyte.jpg"
+                }
+            ];
+
+            return [...data, ...corbettHotels, ...internationalHotels];
         } catch (parseError) {
             console.error('❌ Hotel API did not return valid JSON:', text);
             return [];
