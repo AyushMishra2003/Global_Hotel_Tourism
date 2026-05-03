@@ -1,9 +1,10 @@
 ﻿import { useState, useEffect } from 'react';
-import { Calendar, ArrowRight, BookOpen, ArrowLeft } from 'lucide-react';
+import { Calendar, ArrowRight, BookOpen, ArrowLeft, Home, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import breadcrumbBg from '@/assets/breadcums.jpeg';
 
 const BLOGS_API = 'https://globalhotelsandtourism.com/seo/wp-json/seo/v1/blogs';
 
@@ -92,32 +93,28 @@ export default function Blogs() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50 overflow-x-hidden pt-6">
-      <Button
-        onClick={() => navigate('/')}
-        className="fixed top-8 left-6 z-50 bg-gradient-to-r from-[#101c34] to-[#2a3f6b] hover:bg-[#0d1829] text-white shadow-md border-0"
-        size="sm"
-      >
-        <ArrowLeft className="w-4 h-4 mr-2" />
-        Back
-      </Button>
+    <div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50 overflow-x-hidden">
 
-      {/* Hero */}
-      <section className="py-16 md:py-24 px-4">
-        <div className="container mx-auto text-center relative">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 leading-tight">
-              Our
-              <span className="block md:inline bg-gradient-to-r from-[#101c34] to-[#2a3f6b] bg-clip-text text-transparent"> Blog</span>
-            </h1>
-            <p className="text-base md:text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-              Insights, stories, and updates from India's premier hospitality platform.
-            </p>
-          </div>
-          <div className="absolute top-0 right-0 w-32 h-32 bg-[#e8ebf3] rounded-full opacity-20 -z-10 hidden md:block" />
-          <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#e8ebf3] rounded-full opacity-30 -z-10 hidden md:block" />
+      {/* Breadcrumb Hero Banner */}
+      <div className="relative w-full h-64 md:h-80 overflow-hidden">
+        <img src={breadcrumbBg} alt="Blogs" className="absolute inset-0 w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+        <div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+          <nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+              <Home className="w-3.5 h-3.5" /><span>Home</span>
+            </Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            <span className="text-white font-medium">Blogs</span>
+          </nav>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+            Our Blog
+          </h1>
+          <p className="text-white/70 mt-2 text-sm md:text-base max-w-xl">
+            Insights, stories, and updates from India's premier hospitality platform.
+          </p>
         </div>
-      </section>
+      </div>
 
       {/* Blog Grid */}
       <section className="py-6 md:py-12 px-4">

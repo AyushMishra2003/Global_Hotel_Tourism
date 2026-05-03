@@ -1,6 +1,7 @@
 ﻿
-import { Award, Star, Trophy, Crown, Medal, FileText, SearchCheck, Award as AwardIcon, ArrowLeft } from 'lucide-react';
+import { Award, Star, Trophy, Crown, Medal, FileText, SearchCheck, Award as AwardIcon, ArrowLeft, Home, ChevronRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+import breadcrumbBg from '@/assets/breadcums.jpeg';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -57,30 +58,26 @@ const Awards = () => {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md border-b border-[#b8c0d8]/30">
-        <div className="container mx-auto px-4 py-6 relative">
-          <button
-            onClick={() => navigate(-1)}
-            className="absolute top-1/2 left-4 -translate-y-1/2 flex items-center gap-2 bg-[#f0f2f7] border border-[#101c34] text-[#101c34] font-semibold rounded-full px-4 py-2 hover:bg-[#e8ebf3] transition-colors shadow-sm"
-            aria-label="Go back"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span>Go Back</span>
-          </button>
-          <div className="text-center">
-            <div className="flex items-center justify-center mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#101c34] to-[#2a3f6b] rounded-full flex items-center justify-center mr-3">
-                <Award className="w-7 h-7 text-white" />
-              </div>
-              <h1 className="text-3xl font-bold text-gray-800">Excellence Awards Program</h1>
-            </div>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We invite India&apos;s finest hospitality partners to be recognized for their dedication to excellence.
-            </p>
-          </div>
+      {/* Breadcrumb Hero Banner */}
+      <div className="relative w-full h-64 md:h-80 overflow-hidden">
+        <img src={breadcrumbBg} alt="Awards" className="absolute inset-0 w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+        <div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+          <nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+              <Home className="w-3.5 h-3.5" /><span>Home</span>
+            </Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            <span className="text-white font-medium">Awards</span>
+          </nav>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+            Excellence Awards Program
+          </h1>
+          <p className="text-white/70 mt-2 text-sm md:text-base max-w-xl">
+            Recognizing India's finest hospitality partners for their dedication to excellence.
+          </p>
         </div>
-      </header>
+      </div>
 
       {/* Award Tiers Section */}
       <section className="py-12 px-4">

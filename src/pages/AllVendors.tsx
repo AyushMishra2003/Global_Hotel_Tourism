@@ -1,5 +1,6 @@
 ﻿import { Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Home, ChevronRight } from 'lucide-react';
+import breadcrumbBg from '@/assets/breadcums.jpeg';
 import {
   Card,
   CardContent,
@@ -79,28 +80,27 @@ export default function AllVendors() {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-gray-50">
-      <div className="container mx-auto px-4 py-12 md:py-16">
-        <div className="mb-8">
-          <button
-            onClick={() => navigate(-1)}
-            className="flex items-center gap-2 bg-[#f0f2f7] border border-[#101c34] text-[#101c34] font-semibold rounded-full px-4 py-2 hover:bg-[#e8ebf3] transition-colors shadow-sm"
-            aria-label="Go back"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span>Go Back</span>
-          </button>
-        </div>
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            <span className="bg-gradient-to-r from-[#101c34] to-[#2a3f6b] bg-clip-text text-transparent">
-              Vendor Categories
-            </span>
+      {/* Breadcrumb Hero Banner */}
+      <div className="relative w-full h-64 md:h-80 overflow-hidden">
+        <img src={breadcrumbBg} alt="Vendors" className="absolute inset-0 w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+        <div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+          <nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+              <Home className="w-3.5 h-3.5" /><span>Home</span>
+            </Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            <span className="text-white font-medium">Vendors</span>
+          </nav>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+            Vendor Categories
           </h1>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#101c34] to-[#2a3f6b] rounded-full mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Explore our comprehensive range of wedding and event service providers
+          <p className="text-white/70 mt-2 text-sm md:text-base max-w-xl">
+            Explore our comprehensive range of wedding and event service providers.
           </p>
         </div>
+      </div>
+      <div className="container mx-auto px-4 py-10 md:py-14">
 
         {/* Category Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -137,9 +137,6 @@ export default function AllVendors() {
           ))}
         </div>
 
-        <div className="text-center">
-          {/* The "Back to Home" button was here, but has been replaced by the "Back" button at the top */}
-        </div>
       </div>
     </div>
   );

@@ -1,10 +1,11 @@
 ﻿import { useState, useEffect } from 'react';
-import { Search, Calendar, Tag, Eye, ArrowRight, BookOpen, ArrowLeft } from 'lucide-react';
+import { Search, Calendar, Tag, Eye, ArrowRight, BookOpen, ArrowLeft, Home, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Link, useNavigate } from 'react-router-dom';
+import breadcrumbBg from '@/assets/breadcums.jpeg';
 import './current-affairs.css';
 import { getCurrentAffairs, getCategories, getCities, type BlogPost } from '@/data/currentAffairsData';
 
@@ -152,35 +153,28 @@ const CurrentAffairs = () => {
 	}
 
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50 overflow-x-hidden pt-6">
-			{/* Back Button */}
-			<Button
-				onClick={() => navigate('/')}
-				className="fixed top-8 left-6 z-50 bg-gradient-to-r from-[#101c34] to-[#2a3f6b] hover:bg-[#0d1829] text-white shadow-md border-0"
-				size="sm"
-			>
-				<ArrowLeft className="w-4 h-4 mr-2" />
-				Back
-			</Button>
-			
-			{/* Hero Section */}
-			<section className="py-16 md:py-24 px-4 overflow-hidden">
-				<div className="container mx-auto text-center relative">
-					<div className="max-w-4xl mx-auto">
-						<h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight">
-							Stay Updated with
-							<span className="block md:inline bg-gradient-to-r from-[#101c34] to-[#2a3f6b] bg-clip-text text-transparent"> Current Affairs</span>
-						</h2>
-						<p className="text-base md:text-xl text-gray-600 mb-8 md:mb-12 leading-relaxed max-w-2xl mx-auto">
-							Discover the latest news, trends, and updates from India&apos;s hospitality experts.
-						</p>
-					</div>
-					
-					{/* Decorative elements - visible on larger screens */}
-					<div className="absolute top-0 right-0 w-32 h-32 bg-[#e8ebf3] rounded-full opacity-20 -z-10 hidden md:block"></div>
-					<div className="absolute bottom-0 left-0 w-24 h-24 bg-[#e8ebf3] rounded-full opacity-30 -z-10 hidden md:block"></div>
+		<div className="min-h-screen bg-gradient-to-br from-[#f0f2f7] via-white to-blue-50 overflow-x-hidden">
+
+			{/* Breadcrumb Hero Banner */}
+			<div className="relative w-full h-64 md:h-80 overflow-hidden">
+				<img src={breadcrumbBg} alt="Current Affairs" className="absolute inset-0 w-full h-full object-cover object-center" />
+				<div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+				<div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+					<nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+						<Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+							<Home className="w-3.5 h-3.5" /><span>Home</span>
+						</Link>
+						<ChevronRight className="w-3.5 h-3.5 text-white/40" />
+						<span className="text-white font-medium">Current Affairs</span>
+					</nav>
+					<h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+						Current Affairs
+					</h1>
+					<p className="text-white/70 mt-2 text-sm md:text-base max-w-xl">
+						Discover the latest news, trends, and updates from India's hospitality experts.
+					</p>
 				</div>
-			</section>
+			</div>
 
 			{/* Search and Filters */}
 			<section className="py-4 md:py-8 px-4 bg-white/60">

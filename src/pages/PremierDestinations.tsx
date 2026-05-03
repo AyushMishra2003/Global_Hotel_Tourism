@@ -1,6 +1,7 @@
 ﻿  import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, MapPin, Star, Globe, Phone, Mail } from 'lucide-react'
+import { ArrowLeft, MapPin, Star, Globe, Phone, Mail, Home, ChevronRight } from 'lucide-react'
+import breadcrumbBg from '@/assets/breadcums.jpeg'
 import { Button } from '@/components/ui/button'
 import {
   Card,
@@ -126,43 +127,37 @@ export default function PremierDestinations() {
   
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex items-center mb-4">
-            <button 
-              onClick={() => {
-                if (selectedCity) {
-                  setSelectedCity(null);
-                } else if (selectedRegion) {
-                  setSelectedRegion(null);
-                } else {
-                  navigate(-1);
-                }
-              }} 
-              className="flex items-center gap-2 bg-[#f0f2f7] border border-[#101c34] text-[#101c34] font-semibold rounded-full px-4 py-2 hover:bg-[#e8ebf3] transition-colors shadow-sm"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              {selectedCity ? 'Back to Cities' : selectedRegion ? 'Back to Regions' : 'Go Back'}
-            </button>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">
-            {!selectedRegion && 'Explore Premier Destinations in Delhi and Uttarakhand'}
-            {selectedRegion === 'delhi' && 'Explore Premier Destination of Delhi'}
-            {selectedRegion === 'uttarakhand' && !selectedCity && 'Explore Premier Destination of Uttarakhand'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'dehradun' && 'Premier Hotels in Dehradun'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'mussoorie' && 'Premier Hotels in Mussoorie'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'jimcorbett' && 'Premier Hotels in Jim Corbett'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'rishikesh' && 'Premier Hotels in Rishikesh'}
+      {/* Breadcrumb Hero Banner */}
+      <div className="relative w-full h-64 md:h-80 overflow-hidden">
+        <img src={breadcrumbBg} alt="Premier Destinations" className="absolute inset-0 w-full h-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#101c34]/90 via-[#101c34]/55 to-black/25" />
+        <div className="relative h-full flex flex-col justify-end px-6 pb-8 md:px-12 md:pb-10 container mx-auto">
+          <nav className="flex items-center gap-1.5 text-white/70 text-sm mb-3">
+            <Link to="/" className="flex items-center gap-1 hover:text-white transition-colors">
+              <Home className="w-3.5 h-3.5" /><span>Home</span>
+            </Link>
+            <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+            {selectedRegion && (
+              <>
+                <button onClick={() => { setSelectedRegion(null); setSelectedCity(null); }} className="hover:text-white transition-colors capitalize">{selectedRegion}</button>
+                <ChevronRight className="w-3.5 h-3.5 text-white/40" />
+              </>
+            )}
+            <span className="text-white font-medium">
+              {selectedCity ? selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1) : selectedRegion ? (selectedRegion === 'delhi' ? 'Delhi' : 'Uttarakhand') : 'Premier Destinations'}
+            </span>
+          </nav>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white leading-tight" style={{ fontFamily: 'var(--font-head)', color: '#ffffff' }}>
+            {!selectedRegion && 'Premier Destinations'}
+            {selectedRegion === 'delhi' && 'Delhi NCR'}
+            {selectedRegion === 'uttarakhand' && !selectedCity && 'Uttarakhand'}
+            {selectedCity && selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1)}
           </h1>
-          <p className="text-gray-600">
-            {!selectedRegion && 'Discover exceptional venues across Delhi NCR and the scenic beauty of Uttarakhand'}
+          <p className="text-white/70 mt-2 text-sm md:text-base max-w-xl">
+            {!selectedRegion && 'Exceptional venues across Delhi NCR and the scenic beauty of Uttarakhand'}
             {selectedRegion === 'delhi' && 'Discover exceptional venues across Delhi NCR'}
             {selectedRegion === 'uttarakhand' && !selectedCity && 'Discover the scenic beauty and venues of Uttarakhand'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'dehradun' && 'Explore the finest hotels and resorts in Dehradun'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'mussoorie' && 'Explore the finest hotels and resorts in Mussoorie'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'jimcorbett' && 'Explore the finest hotels and resorts in Jim Corbett National Park'}
-            {selectedRegion === 'uttarakhand' && selectedCity === 'rishikesh' && 'Explore the finest hotels and resorts in Rishikesh'}
+            {selectedCity && `Explore the finest hotels and resorts in ${selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1)}`}
           </p>
         </div>
       </div>
